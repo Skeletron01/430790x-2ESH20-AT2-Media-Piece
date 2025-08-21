@@ -91,3 +91,68 @@ footer {
   background: #eee;
   font-size: 0.9rem;
 }
+
+
+#credit {
+  font-size: 0.85rem;
+  color: #555;
+  text-align: center;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+#credit a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+#credit a:hover {
+  text-decoration: underline;
+}
+
+
+    .article-page {
+      max-width: 800px;
+      margin: 50px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    .article-page img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    .article-page h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    .article-page .meta {
+      color: #888;
+      font-size: 0.9rem;
+      margin-bottom: 30px;
+    }
+
+    .article-page p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    .back-link {
+      display: block;
+      text-align: centre;
+      margin-top: 40px;
+      text-decoration: none;
+      color: #2575fc;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }

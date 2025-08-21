@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing – Autonomous Insider</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .pricing-header {
+      text-align: center;
+      padding: 80px 20px 40px;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+    }
+
+    .pricing-header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .pricing-header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .pricing-container {
+      max-width: 1000px;
+      margin: 50px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 0 20px;
+    }
+
+    .pricing-card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .pricing-card h2 {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .price {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #2575fc;
+      margin: 20px 0;
+    }
+
+    .features {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 30px;
+    }
+
+    .features li {
+      margin-bottom: 10px;
+      color: #555;
+    }
+
+    .cta-button {
+      background: #2575fc;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cta-button-free {
+      background: #57585a;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background: #1a5fe4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #eee;
+      font-size: 0.9rem;
+      margin-top: 60px;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      text-decoration: none;
+      color: #2575fc;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="pricing-header">
+    <h1>Choose Your Plan</h1>
+    <p>Support independent journalism and unlock deeper insights into autonomous tech.</p>
+  </header>
+
+  <main class="pricing-container">
+    <!-- Basic Tier -->
+    <div class="pricing-card">
+      <div>
+        <h2>Basic</h2>
+        <p class="price">Free</p>
+        <ul class="features">
+          <li>Access to public articles</li>
+          <li>Weekly newsletter</li>
+          <li>Delayed access (48h)</li>
+        </ul>
+      </div>
+      <button class="cta-button-free">Current Plan</button>
+    </div>
+
+    <!-- Pro Tier -->
+    <div class="pricing-card">
+      <div>
+        <h2>Pro</h2>
+        <p class="price">$5/month</p>
+        <ul class="features">
+          <li>Early article access</li>
+          <li>Bonus editorial content</li>
+          <li>Comment on posts</li>
+        </ul>
+      </div>
+    <a href="pay.html" class="cta-button">Subscribe</a>
+    </div>
+
+    <!-- Insider Tier -->
+    <div class="pricing-card">
+      <div>
+        <h2>Insider</h2>
+        <p class="price">$12/month</p>
+        <ul class="features">
+          <li>All Pro features</li>
+          <li>Exclusive interviews</li>
+          <li>Behind-the-scenes content</li>
+          <li>Access to events & webinars</li>
+        </ul>
+      </div>
+    <a href="pay.html" class="cta-button">Subscribe</a>
+    </div>
+  </main>
+
+  <a class="back-link" href="index.html">← Back to Articles</a>
+
+  <footer>
+    <p>&copy; 2025 Autonomous Insider | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
